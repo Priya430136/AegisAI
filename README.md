@@ -1,4 +1,4 @@
-# 🛡️ AegisAI - AI-Powered Behavioral Anomaly Detection System
+# 🛡️ AegisAI - AI-Powered Behavioral Anomaly Detection System 
 
 An enterprise-grade, sequential AI/ML behavioral anomaly detection system designed to identify, classify, explain, and mitigate cyber attacks in near real-time across user and device access logs.
 
