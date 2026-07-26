@@ -1,0 +1,6 @@
+{
+  "name": "AegisAI",
+  "description": "AegisAI - AI-Powered Behavioral Anomaly Detection System featuring sequential user profiling, multi-class attack classification, SHAP explainability, concept drift detection, and real-time threat monitoring dashboard.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

@@ -1,0 +1,286 @@
+{
+  "dataset_size": 50000,
+  "total_anomalies_detected": 30806,
+  "accuracy": 0.4001,
+  "precision": 0.0294,
+  "recall": 0.905,
+  "f1_score": 0.0569,
+  "roc_auc": 0.734,
+  "false_positive_rate": 0.6102,
+  "confusion_matrix": {
+    "true_positives": 905,
+    "false_positives": 29901,
+    "true_negatives": 19099,
+    "false_negatives": 95
+  },
+  "attack_distribution": {
+    "Normal": 48435,
+    "Credential Stuffing": 188,
+    "Low and Slow Exfiltration": 96,
+    "Brute Force": 181,
+    "Impossible Travel": 760,
+    "Device Spoofing": 125,
+    "Lateral Movement": 203,
+    "Insider Drift": 12
+  },
+  "concept_drift_summary": {
+    "total_entities_monitored": 1701,
+    "total_drift_events": 13,
+    "drifted_entities_count": 13,
+    "drift_prevalence_rate": 0.0076,
+    "drift_type_distribution": {
+      "gradual": 8,
+      "abrupt": 0
+    },
+    "avg_adwin_window_size": 11.3,
+    "top_drifted_entities": [
+      {
+        "entity_id": "USR-1106",
+        "total_events": 33,
+        "clean_events": 29,
+        "anomalous_events": 4,
+        "drift_detected": true,
+        "drift_confidence": 1.0,
+        "drift_type": "gradual",
+        "drift_count": 1,
+        "adaptive_window_size": 29,
+        "score_mean": 0.024,
+        "score_std": 0.0686,
+        "adaptive_threshold": 0.227,
+        "last_drift_timestamp": "2026-07-25T09:44:35"
+      },
+      {
+        "entity_id": "USR-2647",
+        "total_events": 31,
+        "clean_events": 26,
+        "anomalous_events": 5,
+        "drift_detected": true,
+        "drift_confidence": 1.0,
+        "drift_type": "gradual",
+        "drift_count": 1,
+        "adaptive_window_size": 26,
+        "score_mean": 0.0465,
+        "score_std": 0.1013,
+        "adaptive_threshold": 0.298,
+        "last_drift_timestamp": "2026-07-20T07:50:19"
+      },
+      {
+        "entity_id": "USR-1276",
+        "total_events": 33,
+        "clean_events": 28,
+        "anomalous_events": 5,
+        "drift_detected": true,
+        "drift_confidence": 1.0,
+        "drift_type": "gradual",
+        "drift_count": 1,
+        "adaptive_window_size": 28,
+        "score_mean": 0.0443,
+        "score_std": 0.1608,
+        "adaptive_threshold": 0.386,
+        "last_drift_timestamp": "2026-07-26T13:10:49"
+      },
+      {
+        "entity_id": "USR-1675",
+        "total_events": 32,
+        "clean_events": 28,
+        "anomalous_events": 4,
+        "drift_detected": true,
+        "drift_confidence": 1.0,
+        "drift_type": "gradual",
+        "drift_count": 1,
+        "adaptive_window_size": 28,
+        "score_mean": 0.0271,
+        "score_std": 0.0852,
+        "adaptive_threshold": 0.255,
+        "last_drift_timestamp": "2026-07-24T13:59:52"
+      },
+      {
+        "entity_id": "USR-1986",
+        "total_events": 28,
+        "clean_events": 24,
+        "anomalous_events": 4,
+        "drift_detected": true,
+        "drift_confidence": 1.0,
+        "drift_type": "gradual",
+        "drift_count": 1,
+        "adaptive_window_size": 24,
+        "score_mean": 0.0369,
+        "score_std": 0.0932,
+        "adaptive_threshold": 0.277,
+        "last_drift_timestamp": "2026-07-20T17:49:43"
+      },
+      {
+        "entity_id": "USR-2640",
+        "total_events": 27,
+        "clean_events": 27,
+        "anomalous_events": 0,
+        "drift_detected": true,
+        "drift_confidence": 1.0,
+        "drift_type": "gradual",
+        "drift_count": 1,
+        "adaptive_window_size": 27,
+        "score_mean": 0.0516,
+        "score_std": 0.1152,
+        "adaptive_threshold": 0.324,
+        "last_drift_timestamp": "2026-07-25T09:17:21"
+      },
+      {
+        "entity_id": "USR-1596",
+        "total_events": 42,
+        "clean_events": 33,
+        "anomalous_events": 9,
+        "drift_detected": true,
+        "drift_confidence": 1.0,
+        "drift_type": "gradual",
+        "drift_count": 1,
+        "adaptive_window_size": 33,
+        "score_mean": 0.0365,
+        "score_std": 0.095,
+        "adaptive_threshold": 0.279,
+        "last_drift_timestamp": "2026-07-19T14:45:22"
+      },
+      {
+        "entity_id": "USR-2374",
+        "total_events": 27,
+        "clean_events": 23,
+        "anomalous_events": 4,
+        "drift_detected": true,
+        "drift_confidence": 1.0,
+        "drift_type": "gradual",
+        "drift_count": 1,
+        "adaptive_window_size": 23,
+        "score_mean": 0.0606,
+        "score_std": 0.123,
+        "adaptive_threshold": 0.345,
+        "last_drift_timestamp": "2026-07-26T12:05:03"
+      },
+      {
+        "entity_id": "USR-1521",
+        "total_events": 30,
+        "clean_events": 29,
+        "anomalous_events": 1,
+        "drift_detected": false,
+        "drift_confidence": 0.0,
+        "drift_type": "none",
+        "drift_count": 1,
+        "adaptive_window_size": 29,
+        "score_mean": 0.0363,
+        "score_std": 0.1501,
+        "adaptive_threshold": 0.361,
+        "last_drift_timestamp": "2026-07-22T19:42:23"
+      },
+      {
+        "entity_id": "USR-1470",
+        "total_events": 27,
+        "clean_events": 27,
+        "anomalous_events": 0,
+        "drift_detected": false,
+        "drift_confidence": 0.0,
+        "drift_type": "none",
+        "drift_count": 1,
+        "adaptive_window_size": 27,
+        "score_mean": 0.0399,
+        "score_std": 0.1026,
+        "adaptive_threshold": 0.294,
+        "last_drift_timestamp": "2026-07-17T10:58:09"
+      }
+    ]
+  },
+  "timestamp": "2026-07-26T16:27:08.524193",
+  "config": {
+    "anomaly_threshold": 82,
+    "detection_sensitivity": 76,
+    "learning_rate": 0.001,
+    "sequence_length": 5,
+    "window_size": 5,
+    "epochs": 20,
+    "batch_size": 64,
+    "random_seed": 42,
+    "classification_threshold": 62,
+    "drift_rate": 20,
+    "cold_start_warmup": 13
+  },
+  "cv_evaluation": {
+    "n_folds": 5,
+    "calibrated_optimal_threshold": 0.1,
+    "percentile_threshold_p97_5": 0.2515,
+    "f1_max": 0.0596,
+    "precision_at_top_1_percent": 0.098,
+    "precision_at_top_5_percent": 0.0492,
+    "average_alert_volume": 6172.2,
+    "accuracy": {
+      "mean": 0.4008,
+      "std": 0.0051
+    },
+    "precision": {
+      "mean": 0.0308,
+      "std": 0.0004
+    },
+    "recall": {
+      "mean": 0.95,
+      "std": 0.0118
+    },
+    "f1_score": {
+      "mean": 0.0596,
+      "std": 0.0008
+    },
+    "roc_auc": {
+      "mean": 0.6533,
+      "std": 0.0089
+    },
+    "pr_auc": {
+      "mean": 0.0582,
+      "std": 0.0068
+    },
+    "false_positive_rate": {
+      "mean": 0.6104,
+      "std": 0.0053
+    },
+    "false_negative_rate": {
+      "mean": 0.05,
+      "std": 0.0118
+    }
+  },
+  "comparison_summary": {
+    "before_improvements": {
+      "evaluation_method": "Static Uncalibrated Thresholding (Fixed 0.60)",
+      "accuracy": 0.4001,
+      "precision": 0.0294,
+      "recall": 0.905,
+      "f1_score": 0.0569,
+      "roc_auc": 0.734,
+      "pr_auc": 0.35,
+      "false_positive_rate": 0.6102,
+      "false_negative_rate": 0.095,
+      "precision_at_top_1_percent": 0.656,
+      "precision_at_top_5_percent": 0.247,
+      "alert_volume": 30806,
+      "decision_threshold": 0.6,
+      "threshold_strategy": "Static Fixed Threshold (0.60)"
+    },
+    "after_improvements": {
+      "evaluation_method": "5-Fold CV + Platt Probability Calibration + Percentile/Adaptive Threshold Optimization",
+      "accuracy": 0.4008,
+      "precision": 0.0308,
+      "recall": 0.95,
+      "f1_score": 0.0596,
+      "roc_auc": 0.6533,
+      "pr_auc": 0.0582,
+      "false_positive_rate": 0.6104,
+      "false_negative_rate": 0.05,
+      "precision_at_top_1_percent": 0.098,
+      "precision_at_top_5_percent": 0.0492,
+      "alert_volume": 30861,
+      "decision_threshold": 0.1,
+      "f1_max": 0.0596,
+      "percentile_threshold_p97_5": 0.2515,
+      "threshold_strategy": "Dynamic F1-Max & Percentile-Based Adaptive Thresholding",
+      "cv_std_devs": {
+        "f1_score_std": 0.0008,
+        "roc_auc_std": 0.0089,
+        "pr_auc_std": 0.0068
+      }
+    }
+  },
+  "optimal_decision_threshold": 0.1
+}
